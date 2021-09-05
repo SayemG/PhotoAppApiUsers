@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@ComponentScan({"com.microservice.photoapp.api.users.ui.controllers"})
+//@ComponentScan({"com.microservice.photoapp.api.users.ui.controllers"})
 public class PhotoAppApiUsersApplication {
 
     public static void main(String[] args) {
